@@ -1,4 +1,4 @@
-                                                              TRI-PLINK
+                                                     TRI-PLINK
 
 This program was made by our team Tri-PLink.We are software engineer students and this is our project for A semester in C.
 We created a program that will take as input an ip to decimal or binary format and will be converted to decimal or binary
