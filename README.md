@@ -35,19 +35,25 @@ First we see the menu of this C program where the user is prompted to enter a ch
 
 
 
-The program has two main functions, a)binary to_decimal and b)decimal to_binary.
+The program has two main functions,a)decimal to_binary.  and b)binary to_decimal
 
-A)The binary to decimal function takes a binary number as an argument and returns its decimal equivalent. This is achieved by converting each digit of the binary number to its corresponding power of 2 and summing these values up. The binary number is first divided by 10 to extract its last digit, which is then multiplied by 2^0, since the last digit is the least significant bit. This process is repeated until the entire binary number has been processed.
+A)The decimal to binary function takes a decimal number as an argument and prints its binary equivalent. This is achieved by repeatedly dividing the decimal number by 2 and storing the remainder, which is the next most significant bit of the binary number. The bits are stored in an array and then printed in reverse order, starting from the most significant bit to the least significant bit.
+
+
+![screen-22 32 30 15 02 2023](https://user-images.githubusercontent.com/116835400/219147788-ba21d09e-38c9-46c9-b0f8-586056093afb.png)
+
+
+
+
+
+
+B)The binary to decimal function takes a binary number as an argument and returns its decimal equivalent. This is achieved by converting each digit of the binary number to its corresponding power of 2 and summing these values up. The binary number is first divided by 10 to extract its last digit, which is then multiplied by 2^0, since the last digit is the least significant bit. This process is repeated until the entire binary number has been processed.
 
 
 ![aytooooooo](https://user-images.githubusercontent.com/116835400/219147191-6eabdd79-9314-42dd-90fb-0106a545d6a8.png)
 
 
 
-B)The decimal to binary function takes a decimal number as an argument and prints its binary equivalent. This is achieved by repeatedly dividing the decimal number by 2 and storing the remainder, which is the next most significant bit of the binary number. The bits are stored in an array and then printed in reverse order, starting from the most significant bit to the least significant bit.
-
-
-![screen-22 32 30 15 02 2023](https://user-images.githubusercontent.com/116835400/219147788-ba21d09e-38c9-46c9-b0f8-586056093afb.png)
 
 
 
