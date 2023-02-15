@@ -50,3 +50,39 @@ B)The decimal to binary function takes a decimal number as an argument and print
 
 
 The main function first displays an ASCII art header and then prompts the user to enter either 'a' to convert from decimal to binary or 'b' to convert from binary to decimal. If the user enters 'a', the program asks for an IP address in decimal format, and the IP address is then converted to its binary equivalent using the decimal_to_binary function. If the user enters 'b', the program asks for each of the four octets of the IP address in binary format, converts each of them to decimal using the binary to decimal function, and then prints the IP address in decimal format. If the user enters an invalid choice, the program prints an error message and terminates.
+
+
+<h1 style="font-size:36px">Getting Started</h1>
+
+- &nbsp;&nbsp;&nbsp;These instructions will get you a copy of the project up and running on your local machine.
+
+<h1 style="font-size:36px">Prerequisites</h2>
+
+- &nbsp;&nbsp;&nbsp;A C compiler (e.g. GCC).
+
+
+<h1 style="font-size:36px">Installing</h3>
+
+- &nbsp;&nbsp;&nbsp;Clone the repository to your local machine.
+
+To clone this repository
+
+` https://github.com/<Vgvg777>/IP-Converter.git`
+
+<h1 style="font-size:36px">Compile the source code.</h4>
+
+` gcc IP-Converter.c -o IP-Converter`
+
+<h1 style="font-size:36px">Usage.</h5>
+
+- &nbsp;&nbsp;&nbsp;Run the compiled program.
+
+
+`./IP-Converter`
+
+<h1 style="font-size:36px">Contributing</h5>
+
+- &nbsp;&nbsp;&nbsp;If you would like to contribute to the development of this program, feel free to submit a pull request.
+
+
+
