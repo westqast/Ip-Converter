@@ -35,7 +35,7 @@ First we see the menu of this C program where the user is prompted to enter a ch
 
 
 
-The program has two main functions,a)decimal to binary  and b)binary to_decimal .
+The program has two main functions,a)decimal to binary  and b)binary to decimal .
 
 A)The decimal to binary function takes a decimal number as an argument and prints its binary equivalent. This is achieved by repeatedly dividing the decimal number by 2 and storing the remainder, which is the next most significant bit of the binary number. The bits are stored in an array and then printed in reverse order, starting from the most significant bit to the least significant bit.
 
